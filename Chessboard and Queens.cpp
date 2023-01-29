@@ -39,6 +39,8 @@ void solve() {
 			cin >> x;
 			if (x == '*') {
 				board[i][j] = 1;
+			} else {
+				board[i][j] = 0;
 			}
 		}
 	}
